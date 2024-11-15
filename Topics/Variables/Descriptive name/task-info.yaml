@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: n_o_p
+  - text: pg
+  - text: "#number"
+  - text: number_of_pages
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/47549#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 15 Nov 2024 12:20:53 UTC"
+record: -1
+selected_options:
+  - 3
+local_check: false
