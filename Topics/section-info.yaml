@@ -5,3 +5,4 @@ content:
   - Variables
   - Integer arithmetic  basic operations
   - Integer arithmetic  special operations
+  - PEP 8  Coding style guide
