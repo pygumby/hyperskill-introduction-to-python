@@ -3,9 +3,6 @@ files:
   - name: main.py
     visible: true
     learner_created: false
-  - name: main.py.BAK
-    visible: true
-    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/47352#comment
 status: Solved
 record: -1
