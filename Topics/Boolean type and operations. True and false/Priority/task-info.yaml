@@ -1,0 +1,19 @@
+type: sorting
+options:
+  - not
+  - and
+  - or
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6999#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 01 Dec 2024 18:07:22 UTC"
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
