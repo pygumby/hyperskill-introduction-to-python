@@ -1,0 +1,23 @@
+type: matching
+captions:
+  - "m _ q : False"
+  - "x _ y : True"
+  - "z _ y : False"
+options:
+  - '&lt;'
+  - '&gt;'
+  - ==
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6377#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 02 Dec 2024 12:43:23 UTC"
+record: -1
+ordering:
+  - 1
+  - 2
+  - 0
