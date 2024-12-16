@@ -1,9 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-  - text: '&lt;class ''int''&gt;'
-  - text: '&lt;class ''str''&gt;'
-  - text: '&lt;class ''float''&gt;'
 files:
   - name: main.py
     visible: true

@@ -1,9 +1,4 @@
 type: sorting
-options:
-  - Addition
-  - Multiplication
-  - Parentheses
-  - Exponentiation
 files:
   - name: main.py
     visible: true
@@ -14,8 +9,3 @@ feedback:
   message: <html>Correct solution</html>
   time: "Sat, 16 Nov 2024 13:45:11 UTC"
 record: -1
-ordering:
-  - 0
-  - 1
-  - 2
-  - 3

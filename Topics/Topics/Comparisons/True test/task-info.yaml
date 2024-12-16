@@ -1,11 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-  - text: -100
-  - text: 0
-  - text: 100
-  - text: 200
-  - text: 500
+is_multiple_choice: false
 files:
   - name: main.py
     visible: true

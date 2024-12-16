@@ -1,9 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-  - text: "No"
-  - text: "Only if the user takes too long (for instance, 2 hours)"
-  - text: "Yes, in every case"
 files:
   - name: main.py
     visible: true

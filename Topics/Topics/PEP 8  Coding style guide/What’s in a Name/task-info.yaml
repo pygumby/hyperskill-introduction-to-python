@@ -1,10 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-  - text: MYVARIABLE
-  - text: my_variable
-  - text: MyVariable
-  - text: myVariable
 files:
   - name: main.py
     visible: true

@@ -1,9 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-  - text: help(print)
-  - text: doc(print)
-  - text: print.__doc__()
 files:
   - name: main.py
     visible: true

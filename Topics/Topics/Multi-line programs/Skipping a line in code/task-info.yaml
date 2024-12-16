@@ -1,9 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-  - text: How<br>are<br> you?
-  - text: How are you?
-  - text: How<br>are you?
 files:
   - name: main.py
     visible: true

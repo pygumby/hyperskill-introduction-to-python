@@ -1,14 +1,4 @@
 type: matching
-captions:
-  - <code>5 and 0 and 12</code>
-  - <code>True or False</code>
-  - <code>not (False or True)</code>
-  - <code>5 or " "</code>
-options:
-  - <code>True</code>
-  - <code>False</code>
-  - <code>0</code>
-  - <code>5</code>
 files:
   - name: main.py
     visible: true
@@ -19,8 +9,3 @@ feedback:
   message: <html>Correct solution</html>
   time: "Sun, 01 Dec 2024 18:02:45 UTC"
 record: -1
-ordering:
-  - 0
-  - 1
-  - 2
-  - 3

@@ -1,10 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-  - text: Hello World! I am learning Python.
-  - text: Hello World!
-  - text: Hello World!<br>I am learning Python.
-  - text: I am learning Python.
 files:
   - name: main.py
     visible: true

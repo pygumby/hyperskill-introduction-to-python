@@ -1,13 +1,5 @@
 type: matching
 custom_name: "Input: a new built-in function"
-captions:
-  - input
-  - print
-  - string
-options:
-  - Outputs something in the console
-  - "It is not a function, it's a data type"
-  - Takes an input from a user
 files:
   - name: main.py
     visible: true
@@ -18,7 +10,3 @@ feedback:
   message: <html>Correct solution</html>
   time: "Mon, 18 Nov 2024 12:15:13 UTC"
 record: -1
-ordering:
-  - 0
-  - 1
-  - 2

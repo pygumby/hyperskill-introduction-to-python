@@ -1,10 +1,5 @@
 type: choice
 is_multiple_choice: false
-options:
-  - text: 9<br>2
-  - text: 11<br>2
-  - text: 9<br>7
-  - text: 11<br>7
 files:
   - name: main.py
     visible: true
