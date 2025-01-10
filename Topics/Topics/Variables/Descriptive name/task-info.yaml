@@ -1,5 +1,10 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: n_o_p
+  - text: pg
+  - text: "#number"
+  - text: number_of_pages
 files:
   - name: main.py
     visible: true

@@ -1,4 +1,14 @@
 type: matching
+captions:
+  - MEMORY_SIZE
+  - I'm feeling lucky today!
+  - radius
+  - "She said, \"Good morning, Captain!\""
+options:
+  - Use single quotes to print the sentence.
+  - Use double quotes to print the sentence.
+  - It is a constant.
+  - It is a variable.
 files:
   - name: main.py
     visible: true
@@ -9,3 +19,8 @@ feedback:
   message: <html>Correct solution</html>
   time: "Sun, 17 Nov 2024 20:16:32 UTC"
 record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

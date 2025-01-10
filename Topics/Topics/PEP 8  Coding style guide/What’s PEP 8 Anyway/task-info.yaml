@@ -1,5 +1,10 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: To make fixing bugs a nightmare
+  - text: Just to show off to other coders
+  - text: To keep the code tidy and easy on the eyes
+  - text: To make the code run super fast
 files:
   - name: main.py
     visible: true

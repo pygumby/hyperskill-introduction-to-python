@@ -1,5 +1,10 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: increases its value after each iteration
+  - text: decreases its value after each iteration
+  - text: doesn’t change its value after each iteration
+  - text: changes its value after each iteration
 files:
   - name: main.py
     visible: true

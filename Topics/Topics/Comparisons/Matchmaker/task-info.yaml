@@ -1,4 +1,12 @@
 type: matching
+captions:
+  - "m _ q : False"
+  - "x _ y : True"
+  - "z _ y : False"
+options:
+  - '&lt;'
+  - '&gt;'
+  - ==
 files:
   - name: main.py
     visible: true
@@ -9,3 +17,7 @@ feedback:
   message: <html>Correct solution</html>
   time: "Mon, 02 Dec 2024 12:43:23 UTC"
 record: -1
+ordering:
+  - 0
+  - 1
+  - 2

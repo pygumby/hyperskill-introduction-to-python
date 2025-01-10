@@ -1,5 +1,9 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+  - text: How the data is stored
+  - text: The operations that can be performed on it
+  - text: The color of the data
 files:
   - name: main.py
     visible: true

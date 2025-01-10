@@ -1,5 +1,9 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: "Hello, <br> Hyperskill"
+  - text: "Hello, Hyperskill"
+  - text: "Hello, user_name"
 files:
   - name: main.py
     visible: true

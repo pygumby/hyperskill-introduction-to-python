@@ -1,5 +1,11 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+  - text: ++
+  - text: ==
+  - text: -=
+  - text: --
+  - text: '*='
 files:
   - name: main.py
     visible: true

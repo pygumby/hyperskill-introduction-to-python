@@ -1,4 +1,9 @@
 type: sorting
+options:
+  - print()
+  - print("Line breaks are")
+  - print("small")
+  - print("but mighty")
 files:
   - name: main.py
     visible: true
@@ -9,3 +14,8 @@ feedback:
   message: <html>Correct solution</html>
   time: "Tue, 12 Nov 2024 22:20:44 UTC"
 record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

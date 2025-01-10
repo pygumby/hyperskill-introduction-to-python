@@ -1,4 +1,14 @@
 type: matching
+captions:
+  - Multiplication
+  - Addition
+  - Subtraction
+  - Division
+options:
+  - Finding the area of a rectangle from its length and width
+  - Calculating the total expenses after shopping
+  - Calculating the average monthly revenue from the total yearly revenue
+  - Determining the remaining amount of milk after making a cup of coffee
 files:
   - name: main.py
     visible: true
@@ -9,3 +19,8 @@ feedback:
   message: <html>Correct solution</html>
   time: "Fri, 15 Nov 2024 13:21:33 UTC"
 record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

@@ -1,5 +1,11 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+  - text: H_BAR
+  - text: PI
+  - text: LIGHT_SPEED
+  - text: width
+  - text: length
 files:
   - name: main.py
     visible: true

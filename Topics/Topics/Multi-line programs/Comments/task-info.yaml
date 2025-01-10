@@ -1,5 +1,10 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: "#"
+  - text: '?'
+  - text: '**'
+  - text: //
 files:
   - name: main.py
     visible: true

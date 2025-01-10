@@ -1,5 +1,9 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: A special kind of equation
+  - text: A labeled storage unit for values
+  - text: A mathematical operation
 files:
   - name: main.py
     visible: true

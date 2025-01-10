@@ -1,5 +1,11 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+  - text: 999_emergency
+  - text: balance
+  - text: city_name
+  - text: salary
+  - text: "#date_of_birth"
 files:
   - name: main.py
     visible: true
