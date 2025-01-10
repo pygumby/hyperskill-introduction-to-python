@@ -1,0 +1,14 @@
+type: code
+custom_name: An empty list!
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6738#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 10 Jan 2025 16:03:20 UTC"
+record: -1
+submission_language: python3
