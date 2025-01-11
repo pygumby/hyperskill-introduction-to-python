@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 1)
+  - text: 2)
+  - text: 3)
+  - text: 4)
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7283#comment
+status: Solved
+feedback:
+  message: "<html>That's right! Since any comparison results in a boolean value, there\
+    \ is no need to write everything twice.</html>"
+  time: "Sat, 11 Jan 2025 12:47:34 UTC"
+record: -1
+selected_options:
+  - 3
+custom_name: Shorten!
+local_check: false
