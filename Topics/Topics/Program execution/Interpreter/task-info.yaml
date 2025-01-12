@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: A program which reads and executes code line by line.
+  - text: Standard library of a programming language.
+  - text: A program which compiles your source code into byte code.
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6797#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 12 Jan 2025 15:18:36 UTC"
+record: -1
+selected_options:
+  - 0
+local_check: false

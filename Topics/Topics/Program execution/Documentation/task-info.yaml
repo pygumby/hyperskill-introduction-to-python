@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - "[1]"
+  - "[2]"
+  - "[3]"
+  - odd
+options:
+  - unit testing
+  - dynamic typing
+  - interpreted nature
+  - application development
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11363#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 12 Jan 2025 15:18:20 UTC"
+record: -1
+ordering:
+  - 1
+  - 2
+  - 3
+  - 0

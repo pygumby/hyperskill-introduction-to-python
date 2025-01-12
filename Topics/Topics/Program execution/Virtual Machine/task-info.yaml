@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: A program which converts Python source code into byte code.
+  - text: "A piece of code emulating Python, which reads and executes byte-code instructions."
+  - text: An implementation of Python for the .NET framework.
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6799#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 12 Jan 2025 15:22:54 UTC"
+record: -1
+selected_options:
+  - 1
+local_check: false

@@ -1,0 +1,21 @@
+type: sorting
+options:
+  - Writing source code
+  - Compilation
+  - Execution of bytecode
+  - Running source code
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6048#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 12 Jan 2025 15:22:29 UTC"
+record: -1
+ordering:
+  - 0
+  - 3
+  - 1
+  - 2
