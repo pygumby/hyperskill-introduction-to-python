@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: <code>empty_dict = dict()</code>
+  - text: "<code>empty_dict = []</code>"
+  - text: "<code>empty_dict = {}</code>"
+  - text: "<code>empty_dict = dict{}</code>"
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23428#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 13 Jan 2025 17:55:47 UTC"
+record: -1
+selected_options:
+  - 0
+  - 2
+local_check: false
