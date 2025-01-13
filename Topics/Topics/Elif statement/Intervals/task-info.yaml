@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - 88
+  - 101
+  - 276
+  - 300
+options:
+  - the third interval
+  - the second interval
+  - the first interval
+  - out of limit
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5929#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 13 Jan 2025 12:38:18 UTC"
+record: -1
+ordering:
+  - 2
+  - 1
+  - 0
+  - 3
