@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: float
+  - text: int
+  - text: print
+  - text: str
+  - text: type
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6514#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 14 Jan 2025 09:37:07 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+  - 3
+local_check: false

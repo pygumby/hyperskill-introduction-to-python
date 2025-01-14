@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Dynamic typing
+  - text: Static typing
+  - text: Strong typing
+  - text: Weak typing
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6513#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 14 Jan 2025 09:37:21 UTC"
+record: -1
+selected_options:
+  - 0
+custom_name: What is it?
+local_check: false

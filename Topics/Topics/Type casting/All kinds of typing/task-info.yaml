@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - Dynamic typing
+  - Static typing
+  - Strong typing
+  - Weak typing
+options:
+  - the code <code>print("99" / 3)</code> returns an error
+  - the code <code>print("99" / 3)</code> runs without errors
+  - variable <code>my_string</code> can hold any value
+  - variable <code>my_string</code> only holds strings
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6516#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 14 Jan 2025 09:46:06 UTC"
+record: -1
+ordering:
+  - 2
+  - 3
+  - 0
+  - 1

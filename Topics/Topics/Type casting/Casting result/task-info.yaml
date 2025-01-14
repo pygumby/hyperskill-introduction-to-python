@@ -1,0 +1,29 @@
+type: matching
+captions:
+  - int("10.0")
+  - float(10)
+  - str(10.0)
+  - int(10.3)
+  - str(10)
+options:
+  - 10.0
+  - '"10.0"'
+  - ValueError
+  - '"10"'
+  - 10
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6227#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 14 Jan 2025 09:40:06 UTC"
+record: -1
+ordering:
+  - 2
+  - 0
+  - 1
+  - 4
+  - 3
