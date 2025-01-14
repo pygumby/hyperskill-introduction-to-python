@@ -1,0 +1,8 @@
+custom_name: "Real-time interpreter: Shell"
+content:
+  - Theory
+  - Commands
+  - Usage
+  - Multiline strings
+  - Predict the result
+  - Concatenating strings
