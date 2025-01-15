@@ -1,0 +1,13 @@
+type: code
+custom_name: E ** x minus one
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7176#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 15 Jan 2025 10:33:00 UTC"
+record: -1
+submission_language: python3
