@@ -25,3 +25,4 @@ content:
   - Real-time interpreter  Shell
   - Importing modules
   - Errors
+  - Exceptions

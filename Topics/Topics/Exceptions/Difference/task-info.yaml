@@ -1,0 +1,20 @@
+type: matching
+captions:
+  - SyntaxError
+  - Exception
+options:
+  - Compilation step
+  - Interpretation step
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7186#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 17 Jan 2025 11:09:28 UTC"
+record: -1
+ordering:
+  - 0
+  - 1
