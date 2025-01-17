@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: max
+  - text: floor
+  - text: abs
+  - text: round
+  - text: min
+  - text: ceil
+  - text: sin
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6258#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 17 Jan 2025 11:59:01 UTC"
+record: -1
+selected_options:
+  - 0
+  - 2
+  - 3
+  - 4
+local_check: false

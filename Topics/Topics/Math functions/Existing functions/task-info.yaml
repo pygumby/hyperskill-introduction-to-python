@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: sqrt
+  - text: fabs
+  - text: "sin, cos"
+  - text: abs
+  - text: "min, max"
+  - text: mean
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6257#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 17 Jan 2025 12:02:46 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+  - 2
+local_check: false
