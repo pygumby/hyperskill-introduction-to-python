@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: will not be executed if the exception in try block doesn't match the specified
+      exception
+  - text: will be executed only if the specified exception occurred
+  - text: will be always executed in the end
+  - text: will be executed if there were no exceptions in try block
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6272#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sat, 18 Jan 2025 23:12:36 UTC"
+record: -1
+selected_options:
+  - 0
+  - 1
+local_check: false
