@@ -1,0 +1,27 @@
+type: matching
+custom_name: What's right?
+captions:
+  - break
+  - continue
+  - else after a for loop
+  - else after a while loop
+options:
+  - "After a certain number of iterations, it runs an additional code."
+  - It executes some block of code if the loop&#x27;s condition is false.
+  - It may help to exit an infinite loop.
+  - It skips the current iteration under some specified condition.
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6603#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 26 Jan 2025 19:46:38 UTC"
+record: -1
+ordering:
+  - 2
+  - 3
+  - 0
+  - 1
