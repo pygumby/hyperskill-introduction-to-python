@@ -6,9 +6,9 @@ captions:
   - print(36 / 5)
 options:
   - 3
+  - 4.0
   - 4
   - 7.2
-  - 4.0
 files:
   - name: main.py
     visible: true
