@@ -33,3 +33,4 @@ content:
   - Quotes and multi-line strings
   - "Loop control  break, continue, pass"
   - Dictionary methods
+  - Random module

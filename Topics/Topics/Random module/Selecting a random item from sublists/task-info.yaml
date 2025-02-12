@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: |-
+      <pre><code class="python">import random
+      random.choice(x) for x in nested_list</code></pre>
+  - text: |-
+      <pre><code class="python">import random
+      [random.randint(x) for x in nested_list]</code></pre>
+  - text: |-
+      <pre><code class="python">import random
+      [random.random(x) for x in nested_list]</code></pre>
+  - text: |-
+      <pre><code class="python">import random
+      [random.choice(x) for x in nested_list]</code></pre>
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/40921#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 12 Feb 2025 17:11:07 UTC"
+record: -1
+selected_options:
+  - 3
+local_check: false
