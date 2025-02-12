@@ -1,3 +1,5 @@
+import random
+
 print("Enter the number of friends joining (including you):")
 
 number_of_friends = int(input())
@@ -17,9 +19,21 @@ print("Enter the total bill value:")
 
 total_bill = float(input())
 
-amount_per_person = round(total_bill / number_of_friends, 2)
+print("Do you want to use the \"Who is lucky?\" feature?")
 
-for friend in ledger:
-    ledger[friend] = amount_per_person
+lucky_friend = None
 
-print(ledger)
+if input() == "Yes":
+    lucky_friend = random.choice(list(ledger.keys()))
+    print(f"{lucky_friend} is the lucky one!")
+else:
+    print("No one is going to be lucky")
+
+# TODO: The following code does not yet take into account the "lucky feature"!
+
+# amount_per_person = round(total_bill / number_of_friends, 2)
+
+# for friend in ledger:
+#     ledger[friend] = amount_per_person
+
+# print(ledger)
