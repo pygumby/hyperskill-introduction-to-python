@@ -29,11 +29,16 @@ if input() == "Yes":
 else:
     print("No one is going to be lucky")
 
-# TODO: The following code does not yet take into account the "lucky feature"!
+amount_per_person = 0
 
-# amount_per_person = round(total_bill / number_of_friends, 2)
+if lucky_friend is not None:
+    amount_per_person = round(total_bill / (number_of_friends - 1), 2)
+    for friend in ledger:
+        ledger[friend] = amount_per_person
+        ledger[lucky_friend] = 0
+else:
+    amount_per_person = round(total_bill / number_of_friends, 2)
+    for friend in ledger:
+        ledger[friend] = amount_per_person
 
-# for friend in ledger:
-#     ledger[friend] = amount_per_person
-
-# print(ledger)
+print(ledger)
