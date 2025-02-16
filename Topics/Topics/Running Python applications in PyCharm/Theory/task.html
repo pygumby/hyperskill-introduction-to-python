@@ -1,0 +1,49 @@
+<div class="step-text">
+<p>When you have created your project in PyCharm and added some Python scripts, it is time to execute it. PyCharm provides several methods to execute code including the ability to execute the entire file or code selection. You can use the Python console to run code fragments and stand-alone commands. You can also use Run/Debug configurations to customize the way you're executing the code.</p>
+<h5 id="run-a-python-script">Run a Python script</h5>
+<p>Open your Python file in the editor. Then you have the following options to run it:</p>
+<ul>
+<li>
+<p>Right-click anywhere in the editor and select <em>Run &lt;filename&gt;</em>.<img alt="" height="947" name="Screenshot 2024-07-16 093702.png" src="https://ucarecdn.com/d6b948af-28c8-4546-95da-29cad8b59152/-/crop/1263x947/35,25/-/preview/" width="1263"/></p>
+</li>
+<li>
+<p>Alternatively, press <em>Ctrl+Shift+F10</em> (Windows and Linux) or <em>Ctrl+Shift+R</em> (macOS).</p>
+</li>
+<li>
+<p>If your code contains the main clause, click the run icon in the gutter, and then select <em>Run &lt;filename&gt;</em>.<picture><source media="(max-width: 480px)" srcset="https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/-/stretch/off/-/resize/480x/-/format/webp/ 1x,https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/-/stretch/off/-/resize/960x/-/format/webp/ 2x,https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/-/stretch/off/-/resize/1440x/-/format/webp/ 3x" type="image/webp"/><source media="(max-width: 800px)" srcset="https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/-/stretch/off/-/resize/800x/-/format/webp/ 1x,https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/-/stretch/off/-/resize/1600x/-/format/webp/ 2x,https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/-/stretch/off/-/resize/2400x/-/format/webp/ 3x" type="image/webp"/><source srcset="https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/-/stretch/off/-/resize/1100x/-/format/webp/ 1x,https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/-/stretch/off/-/resize/2200x/-/format/webp/ 2x,https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/-/stretch/off/-/resize/3000x/-/format/webp/ 3x" type="image/webp"/><img alt="" height="437" name="Screenshot 2024-07-16 094141.png" src="https://ucarecdn.com/e61eec4c-c628-4d88-a8a3-479a2f1d6893/" width="1407"/></picture></p>
+</li>
+</ul>
+<p>The output of each Python script is displayed in its tab of the <em>Run </em>tool window. If you re-run an application, the new output overwrites the contents of the tab. To preserve the output of an application, even if you re-run it, pin the output tab.<br/>
+<img alt="" height="1006" name="Screenshot 2024-07-16 094536.png" src="https://ucarecdn.com/45af716b-850c-499b-8aa6-1d34cd6a33cd/-/crop/1341x1006/4,0/-/preview/" width="1341"/></p>
+<p>That was the simplest way to run your Python code in PyCharm. However, in some cases, you may need to customize the way you execute your code. Moreover, you may need to run different Python applications using the same set of configuration options. Try <strong>Run/Debug configurations</strong>!</p>
+<h5 id="use-rundebug-configurations">Use run/debug configurations</h5>
+<p>PyCharm uses run/debug configurations to run, debug, and test your code. Each configuration is a named set of startup properties that define what to execute and what parameters and environment should be used.</p>
+<p>You can create a run configuration manually, or you can execute a Python file, and PyCharm will create a temporary configuration for that file with the default parameters. Later, you can modify and save it.</p>
+<p>Look at PyCharm after you have executed your Python script:<br/>
+<img alt="" height="1006" name="Screenshot 2024-07-16 095138.png" src="https://ucarecdn.com/1758a459-6631-4e1d-a762-41cf0197bcd4/-/crop/1342x1006/0,0/-/preview/" width="1342"/></p>
+<p>The configuration for the Championship script appears in the list of the available run/debug configurations. You can modify it by clicking the <em>Modify Run Configuration</em> icon in the <em>Run</em> tool window.</p>
+<p>You can open and edit the configuration by expanding the list of run/debug configurations and selecting <em>Edit Configurations</em>.<br/>
+<img alt="" height="986" name="Screenshot 2024-07-16 095410.png" src="https://ucarecdn.com/5cf19855-f24a-4cdd-8e50-b1f3cbab9137/-/crop/1314x986/0,6/-/preview/" width="1314"/></p>
+<p>You should see a Python script run/debug configuration with the default parameters. You can alter them and fill in some optional parameters.<br/>
+<img alt="" height="966" name="Screenshot 2024-07-16 095550.png" src="https://ucarecdn.com/902ae633-e399-46bd-8501-cb9da35fd1d4/-/crop/1145x966/0,9/-/preview/" width="1145"/></p>
+<p>See the following reference in the official documents for more details: <a href="https://www.jetbrains.com/help/pycharm/run-debug-configuration.html#run-debug-parameters" rel="noopener noreferrer nofollow" target="_blank">Python Run/Debug Configuration Parameters</a>.</p>
+<h5 id="readevaluateprintloop-repl">Read–Evaluate–Print–Loop (REPL)</h5>
+<p>If you have some experience with Python and know how to execute commands line by line, you can do it in PyCharm, too. The main reason for using the Python console from PyCharm is to benefit from the main IDE features, such as code completion, code analysis, and quick fixes. The console is always available in the lower group of tool windows.<br/>
+<img alt="" height="983" name="Screenshot 2024-07-16 095929.png" src="https://ucarecdn.com/59603d5c-c790-4a81-9c34-be9605ea75f6/-/crop/1407x983/0,0/-/preview/" width="1407"/></p>
+<p>Click <img alt="Show variables" height="16" src="https://resources.jetbrains.com/help/img/idea/2021.3/icons.debugger.watch.svg" width="16"/> on the console toolbar to preview the variables as you're executing Python commands. Also, you can click <img alt="New Console" height="16" src="https://resources.jetbrains.com/help/img/idea/2021.3/icons.general.add.svg" width="16"/> to add a new Python console. You can rename each console to come up with meaningful names.</p>
+<p>See <a href="https://www.jetbrains.com/help/pycharm/using-consoles.html#python-console" rel="noopener noreferrer nofollow" target="_blank">Using a Python Console</a> part of the official documentation for more details.</p>
+<p>Read more on this topic in <a href="https://hyperskill.org/blog/post/testing-python-code-101-with-pytest-and-pycharm#further-reading-and-resources" rel="noopener noreferrer nofollow" target="_blank">Testing Python Code 101 with PyTest and PyCharm</a> on Hyperskill Blog.</p>
+<h5 id="conclusion">Conclusion</h5>
+<p>To sum up:</p>
+<ul>
+<li>
+<p>You can execute your Python script using a context menu, pressing a shortcut, and clicking the icon next to the main clause.</p>
+</li>
+<li>
+<p>Once you've executed a script, PyCharm creates a run/debug configuration. You can use it for the next runs, or to modify and customize the way you want to execute your script.</p>
+</li>
+<li>
+<p>You can use the Python console to run commands and execute scripts.</p>
+</li>
+</ul>
+</div>

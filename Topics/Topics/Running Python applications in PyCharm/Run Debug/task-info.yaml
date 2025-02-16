@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: To run different Python applications using the same set of configuration options
+  - text: To follow PEP 8
+  - text: To customize the way you execute your code
+  - text: To test your code
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19156#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 16 Feb 2025 19:31:04 UTC"
+record: -1
+selected_options:
+  - 0
+  - 2
+  - 3
+custom_name: Run/Debug
+local_check: false

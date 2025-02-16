@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: PyCharm asks you to specify a run configuration manually after you try to
+      execute it
+  - text: PyCharm creates a temporary configuration for that file with the default parameters
+  - text: The question is irrelevant since you cannot manually modify a default run
+      configuration in PyCharm
+  - text: Nothing. You can't run a script without manually specifying a run configuration
+      beforehand
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19159#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 16 Feb 2025 19:29:21 UTC"
+record: -1
+selected_options:
+  - 1
+custom_name: Default configuration?
+local_check: false

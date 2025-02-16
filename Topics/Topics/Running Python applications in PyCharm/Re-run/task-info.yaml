@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: The tab gets cleaned and stays blank until you reboot PyCharm
+  - text: The new output overwrites the contents of the tab
+  - text: "Nothing changes, the output stays the same"
+  - text: "The contents of the tab will be rewritten only if the output changes, otherwise\
+    \ they won't be refreshed"
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19155#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 16 Feb 2025 19:30:40 UTC"
+record: -1
+selected_options:
+  - 1
+local_check: false
