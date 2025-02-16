@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Import it from your working email
+  - text: Get a project from a version control system
+  - text: Create a new project
+  - text: Open an existing project
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18235#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 16 Feb 2025 19:18:35 UTC"
+record: -1
+selected_options:
+  - 0
+local_check: false

@@ -1,0 +1,23 @@
+type: sorting
+options:
+  - Launch PyCharm
+  - Create a new project
+  - Write the code
+  - Run the program
+  - Download and install PyCharm
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16115#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 16 Feb 2025 19:16:31 UTC"
+record: -1
+ordering:
+  - 4
+  - 0
+  - 1
+  - 2
+  - 3
