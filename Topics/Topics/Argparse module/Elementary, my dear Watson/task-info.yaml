@@ -1,0 +1,16 @@
+type: code
+custom_name: "Elementary, my dear Watson!"
+files:
+  - name: main.py
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/39248#comment
+status: Solved
+feedback:
+  message: "<html>Dear Sherlock, if you're reading this, then...I'm very, very disappointed.\
+    \ Did you really think I would use the Caesar cipher to encode my evil plan? Poor\
+    \ thing! When did you stop using your brain? Best wishes, Moriarty</html>"
+  time: "Tue, 18 Feb 2025 22:13:53 UTC"
+record: -1
+submission_language: python3

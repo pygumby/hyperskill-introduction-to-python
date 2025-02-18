@@ -39,3 +39,4 @@ content:
   - PyCharm basics
   - Running Python applications in PyCharm
   - Command line arguments
+  - Argparse module
