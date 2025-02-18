@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: |-
+      <pre><code class="python">import sys
+      print(sys.argv[1])</code></pre>
+  - text: |-
+      <pre><code class="python">import sys
+      print(sys.argv[0])</code></pre>
+  - text: |-
+      <pre><code class="python">from sys import argv
+      print(argv[1])</code></pre>
+  - text: |-
+      <pre><code class="python">import sys
+      print(sys.getargv()[1])</code></pre>
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/47214#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 18 Feb 2025 21:38:34 UTC"
+record: -1
+selected_options:
+  - 0
+  - 2
+local_check: false

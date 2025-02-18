@@ -1,0 +1,11 @@
+type: unsupported
+custom_name: "Counting whispers: The script's secret"
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/49128#comment
+status: Solved
+feedback:
+  time: "Tue, 18 Feb 2025 21:41:53 UTC"
+record: -1

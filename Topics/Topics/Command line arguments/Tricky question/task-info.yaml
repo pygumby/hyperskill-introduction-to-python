@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: A list with the script's name and all arguments specified by the user
+  - text: A string with the script's name
+  - text: An empty list
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7982#comment
+status: Solved
+feedback:
+  message: "<html>Correct! When we run a script from the command line, a shell parses\
+    \ the input and sys.argv provides an interface to access arguments the user has\
+    \ written. At this point, it can't be checked how many arguments will be used\
+    \ in the script itself.</html>"
+  time: "Tue, 18 Feb 2025 21:39:16 UTC"
+record: -1
+selected_options:
+  - 0
+local_check: false
