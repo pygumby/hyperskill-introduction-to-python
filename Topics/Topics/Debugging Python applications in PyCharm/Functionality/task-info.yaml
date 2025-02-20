@@ -1,0 +1,27 @@
+type: matching
+captions:
+  - Breakpoints
+  - Line by line execution
+  - Expression evaluation at runtime
+  - Debug Console
+options:
+  - Stop code from executing at a certain line to detect and place undesirable behavior
+  - See what code does at each line step by step
+  - "Type commands, execute them, and review results"
+  - Obtain additional details about the program state or try different scenarios at
+    runtime
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19170#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 20 Feb 2025 20:10:25 UTC"
+record: -1
+ordering:
+  - 0
+  - 1
+  - 3
+  - 2

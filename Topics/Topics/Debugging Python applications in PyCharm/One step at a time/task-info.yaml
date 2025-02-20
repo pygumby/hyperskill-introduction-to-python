@@ -1,0 +1,27 @@
+type: matching
+captions:
+  - Step over
+  - Step into
+  - Step into my code
+  - Step out
+options:
+  - Steps over the current line of code and takes you to the next line even if the highlighted
+    line has method calls in it
+  - Steps into the method to show what happens inside it
+  - Steps out of the current method and takes you to the caller method
+  - Prevents the debugger from stepping into library classes
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19166#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 20 Feb 2025 20:14:39 UTC"
+record: -1
+ordering:
+  - 0
+  - 1
+  - 3
+  - 2

@@ -1,0 +1,55 @@
+<div class="step-text">
+<p>You already know how to execute your code in PyCharm. Unfortunately, working on your code may get frustrating at some point, and pretty often, you will encounter difficult situations. In this topic, we're going to discuss what if something goes wrong and you get execution errors. PyCharm has a special tool to help you solve these issues – a <strong>visual debugger</strong>. With it, you can detect the problematic line, preview the variable values at a breakpoint, and breeze through the suspended script.</p>
+<h5 id="breakpoints">Breakpoints</h5>
+<p>One of the most common tools to detect undesirable behavior in code is <strong>breakpoints</strong>. If you add a breakpoint to a line, this is going to be a line where your code stops executing. Let's consider a typical workflow:</p>
+<p>1. Click the gutter at the executable line of code where you want to set the breakpoint.<br/>
+<img alt="" height="977" name="Screenshot 2024-07-16 100607.png" src="https://ucarecdn.com/317d2401-c173-47bb-9571-e8c6cbef32b4/-/crop/1439x977/0,0/-/preview/" width="1439"/></p>
+<p>2. Right-click your Python script in the editor and select <em>Debug &lt;script name&gt;</em><br/>
+<img alt="" height="951" name="Screenshot 2024-07-16 100823.png" src="https://ucarecdn.com/602dd12e-29f1-41fe-a208-11c5f8efad64/-/crop/1269x951/0,0/-/preview/" width="1269"/></p>
+<p>3. Review the debugging process in the <em>Debug</em> tool window.<br/>
+<img alt="" height="946" name="Screenshot 2024-07-16 101049.png" src="https://ucarecdn.com/8fe45082-9580-47ca-9473-b3c34bc73ed6/-/preview/" width="1413"/></p>
+<p>As you can see, PyCharm initiates code execution and stops at the breakpoint. You can check the variable and special values. Use the <em>Debug</em> tool window toolbar to proceed with the execution or restart it.</p>
+<p>One of the tabs in the tool window is the <em>Debug Console</em>.<strong> </strong>Like the Python Console, it is interactive, so you can use it to type commands, execute them, and review results:<br/>
+<picture><source media="(max-width: 480px)" srcset="https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/-/stretch/off/-/resize/480x/-/format/webp/ 1x,https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/-/stretch/off/-/resize/960x/-/format/webp/ 2x,https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/-/stretch/off/-/resize/1440x/-/format/webp/ 3x" type="image/webp"/><source media="(max-width: 800px)" srcset="https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/-/stretch/off/-/resize/800x/-/format/webp/ 1x,https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/-/stretch/off/-/resize/1600x/-/format/webp/ 2x,https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/-/stretch/off/-/resize/2400x/-/format/webp/ 3x" type="image/webp"/><source srcset="https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/-/stretch/off/-/resize/1100x/-/format/webp/ 1x,https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/-/stretch/off/-/resize/2200x/-/format/webp/ 2x,https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/-/stretch/off/-/resize/3000x/-/format/webp/ 3x" type="image/webp"/><img alt="" height="991" name="Screenshot 2024-07-16 101614.png" src="https://ucarecdn.com/6f56d308-6255-4f05-8fac-d02085f5ba85/" width="1506"/></picture></p>
+<p></p><div class="alert alert-primary">
+<p>Python 3.7 introduces the new built-in <code class="java">breakpoint()</code> function, providing a straightforward method to initiate the Python debugger.</p>
+<p></p></div>
+<h5 id="line-by-line-execution">Line-by-line execution</h5>
+<p>If you want to see what your code does line-by-line, there's no need to put a breakpoint on every line, you can step through your code. There is the toolbar with the stepping actions:</p>
+<ul>
+<li>
+<p><a href="https://www.jetbrains.com/help/pycharm/stepping-through-the-program.html#step-over" rel="noopener noreferrer nofollow" target="_blank">Step over</a> steps over the current line of code and takes you to the next line even if the highlighted line has method calls in it. The implementation of the methods is skipped, and you move straight to the next line of the caller method;</p>
+</li>
+<li>
+<p><a href="https://www.jetbrains.com/help/pycharm/stepping-through-the-program.html#step-into" rel="noopener noreferrer nofollow" target="_blank">Step into</a> steps into the method to show what happens inside it. Use this option when you are not sure the method is returning the correct result.</p>
+</li>
+<li>
+<p><a href="https://www.jetbrains.com/help/pycharm/stepping-through-the-program.html#step-into-my-code" rel="noopener noreferrer nofollow" target="_blank">Step into my code</a> prevents the debugger from stepping into library classes.</p>
+</li>
+<li>
+<p><a href="https://www.jetbrains.com/help/pycharm/stepping-through-the-program.html#step-out" rel="noopener noreferrer nofollow" target="_blank">Step out</a> steps out of the current method and takes you to the caller method.</p>
+</li>
+</ul>
+<p>For more actions available during the debugging process refer to <a href="https://www.jetbrains.com/help/pycharm/stepping-through-the-program.html" rel="noopener noreferrer nofollow" target="_blank">Stepping through the program</a> in the official docs.</p>
+<h5 id="expression-evaluation-at-runtime">Expression evaluation at runtime</h5>
+<p>While debugging your code, you can evaluate expressions to obtain additional details about the program state or try different scenarios at runtime. Just start typing the variable or method in the dedicated field and specify the expression for this code element:<br/>
+<picture><source media="(max-width: 480px)" srcset="https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/-/stretch/off/-/resize/480x/-/format/webp/ 1x,https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/-/stretch/off/-/resize/960x/-/format/webp/ 2x,https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/-/stretch/off/-/resize/1440x/-/format/webp/ 3x" type="image/webp"/><source media="(max-width: 800px)" srcset="https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/-/stretch/off/-/resize/800x/-/format/webp/ 1x,https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/-/stretch/off/-/resize/1600x/-/format/webp/ 2x,https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/-/stretch/off/-/resize/2400x/-/format/webp/ 3x" type="image/webp"/><source srcset="https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/-/stretch/off/-/resize/1100x/-/format/webp/ 1x,https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/-/stretch/off/-/resize/2200x/-/format/webp/ 2x,https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/-/stretch/off/-/resize/3000x/-/format/webp/ 3x" type="image/webp"/><img alt="" height="998" name="Screenshot 2024-07-16 101924.png" src="https://ucarecdn.com/bb03a560-db4c-4710-b8e1-00275d76d13a/" width="1477"/></picture></p>
+<p>You can try various expressions including arbitrary expressions. Learn more about available methods in the <a href="https://www.jetbrains.com/help/pycharm/examining-suspended-program.html#evaluating-expressions" rel="noopener noreferrer nofollow" target="_blank">Evaluating expressions</a> part of the official PyCharm docs.</p>
+<p>Read more on this topic in <a href="https://hyperskill.org/blog/post/testing-python-code-101-with-pytest-and-pycharm#further-reading-and-resources" rel="noopener noreferrer nofollow" target="_blank">Testing Python Code 101 with PyTest and PyCharm</a> on Hyperskill Blog.</p>
+<h5 id="conclusion">Conclusion</h5>
+<p>Let's sum up:</p>
+<ul>
+<li>
+<p>The visual debugger provides handy methods to discover problematic code in your Python script.</p>
+</li>
+<li>
+<p>To stop execution at a certain line, you can use breakpoints.</p>
+</li>
+<li>
+<p>During the debugging process, you can step through the suspended program executing code line by line.</p>
+</li>
+<li>
+<p>The debugger allows you to evaluate expressions at runtime.</p>
+</li>
+</ul>
+</div>

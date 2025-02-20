@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Yes, the\_Debug Console lets you use the known values of the code that has\
+    \ been executed before the breakpoint."
+  - text: "The\_Debug Console is not interactive by default, but you can activate Interactive\
+    \ Mode in the settings that allows you to work with the code executed before a\
+    \ breakpoint and use known values."
+  - text: "No, the\_Debug Console is just like the Python Console. It doesn't know anything\
+    \ about the executed code and only lets you type and execute independent commands."
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19167#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 20 Feb 2025 20:10:47 UTC"
+record: -1
+selected_options:
+  - 0
+local_check: false
