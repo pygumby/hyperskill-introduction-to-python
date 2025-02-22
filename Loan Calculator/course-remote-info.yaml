@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/24581/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Wed, 19 Feb 2025 21:13:06 UTC"
+update_date: "Sat, 22 Feb 2025 18:27:34 UTC"
 stages:
   - id: 500
     step: 8002
@@ -16,7 +16,7 @@ stages:
     is_completed: true
   - id: 503
     step: 8005
-    is_completed: false
+    is_completed: true
 topics:
   0:
     - title: Introduction to Python
